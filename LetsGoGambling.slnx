@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/games/" />
+  <Folder Name="/games/blackjack/">
+    <Project Path="games/blackjack/Blackjack.Console/Blackjack.Console.csproj" />
+    <Project Path="games/blackjack/Blackjack/Blackjack.csproj" />
+  </Folder>
+</Solution>
