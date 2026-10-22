@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj": {}
+    "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj": {}
   },
   "projects": {
-    "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj": {
+    "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj",
+        "projectUniqueName": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj",
         "projectName": "Blackjack",
-        "projectPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj",
-        "packagesPath": "/Users/sam/.nuget/packages/",
-        "outputPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/obj/",
+        "projectPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj",
+        "packagesPath": "C:\\Users\\hbail\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hbail\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/10.0.401/libexec/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/10.0.401/libexec/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
