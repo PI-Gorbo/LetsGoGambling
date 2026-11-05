@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack.Console\\Blackjack.Console.csproj": {}
+    "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack.Console/Blackjack.Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack.Console\\Blackjack.Console.csproj": {
+    "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack.Console/Blackjack.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack.Console\\Blackjack.Console.csproj",
+        "projectUniqueName": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack.Console/Blackjack.Console.csproj",
         "projectName": "Blackjack.Console",
-        "projectPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack.Console\\Blackjack.Console.csproj",
-        "packagesPath": "C:\\Users\\hbail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack.Console\\obj\\",
+        "projectPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack.Console/Blackjack.Console.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack.Console/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hbail\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj": {
-                "projectPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj"
+              "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj": {
+                "projectPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj"
               }
             }
           }
@@ -49,6 +49,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.57.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.403/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -343,17 +349,17 @@
         }
       }
     },
-    "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj": {
+    "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj",
+        "projectUniqueName": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj",
         "projectName": "Blackjack",
-        "projectPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\Blackjack.csproj",
-        "packagesPath": "C:\\Users\\hbail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack\\obj\\",
+        "projectPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/Blackjack.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hbail\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -400,7 +406,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.403/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

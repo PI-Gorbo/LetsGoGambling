@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "m2Sfvcc3fhE=",
+  "dgSpecHash": "imoHtjr7Smc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hbail\\VCProj\\LetsGoGambling\\games\\blackjack\\Blackjack.Console\\Blackjack.Console.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/sam/projects/LetsGoGambling/games/blackjack/Blackjack.Console/Blackjack.Console.csproj",
+  "expectedPackageFiles": [
+    "/Users/sam/.nuget/packages/spectre.console/0.57.2/spectre.console.0.57.2.nupkg.sha512",
+    "/Users/sam/.nuget/packages/spectre.console.ansi/0.57.2/spectre.console.ansi.0.57.2.nupkg.sha512"
+  ],
   "logs": []
 }
