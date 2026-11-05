@@ -1,5 +1,6 @@
 ﻿namespace Blackjack.Console;
 
+using System.Diagnostics;
 using Spectre.Console;
 using static Blackjack.BlackjackGameManager.PerformActionResult;
 
@@ -14,35 +15,31 @@ internal class Program
             new Actor.Player("Henry")
         ]);
 
-        var outcome = RunGameInteractively(game);
+        var outcome = RunGame(game);
+
         if (outcome is GameOutcome.Error error)
         {
             AnsiConsole.WriteLine(error.ErrorMessage);
         }
     }
 
-    private static GameOutcome RunGameInteractively(BlackjackGame game)
+    private static GameOutcome RunGame(BlackjackGame game)
     {
         PrintGameToScreen(game);
 
-        while (BlackjackGameManager.IsGameComplete(game) is false)
+        if (BlackjackGameManager.IsGameComplete(game))
         {
-            var availableActions = BlackjackGameManager.GetAvailableActions(game);
-            var choice = ChooseActionFromAvailableActions(availableActions);
-            var result = BlackjackGameManager.PerformAction(game, choice)!;
-
-            if (result is InvalidAction error)
-            {
-                return new GameOutcome.Error(error.ErrorMessage);
-            }
-            else if (result is UpdatedGame updated)
-            {
-                game = updated.Game;
-                PrintGameToScreen(game);
-            }
+            return new GameOutcome.Success();
         }
 
-        return new GameOutcome.Success();
+        var choice = ChooseActionFromAvailableActions(BlackjackGameManager.GetAvailableActions(game));
+
+        return BlackjackGameManager.PerformAction(game, choice) switch
+        {
+            UpdatedGame updated => RunGame(updated.Game), // play the next turn with the new game
+            InvalidAction error => new GameOutcome.Error(error.ErrorMessage),
+            _ => throw new UnreachableException()
+        };
     }
 
     private static void PrintGameToScreen(BlackjackGame gameState)
