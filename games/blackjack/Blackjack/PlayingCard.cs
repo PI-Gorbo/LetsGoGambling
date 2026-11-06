@@ -33,3 +33,5 @@ public record Deck
         throw new NotImplementedException();
     }
 }
+
+public record PileNumber(int Index);
